@@ -1,0 +1,24 @@
+header {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+h1 {
+  text-align: center;
+  font-family: Arial;
+  font-size: 136px;
+  color: green;
+}
+h3 {
+  font-size: 36px;
+}
+p {
+  font-family: Arial;
+  font-size: 26px;
+}
+#text {
+  text-align: justify;
+}
+#abstract {
+  text-align: right;
+}
