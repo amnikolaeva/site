@@ -1,10 +1,16 @@
+@font-face {
+  font-family: "Emblema One";
+  src: url("http://wickedlysmart.com/hfhtmlcss/chapter8/journal/EmblemaOne-Regular.woff"),
+  url("http://wickedlysmart.com/hfhtmlcss/chapter8/journal/EmblemaOne-Regular.ttf");
+}
 body {
   background-color: #eaf3da;
   margin-left: 20%;
   margin-right: 20%;
   border: 2px dotted black;
   padding: 10px 10px 10px 10px;
-  font-family: sans-serif; 
+  font-family: Verdana, Geneva, Arial, sans-serif; 
+
 }
 header {
   text-align: center;
@@ -17,10 +23,10 @@ img {
 }
 h1 {
   text-align: center;
-  font-family: sans-serif;
   font-size: 136px;
   color: green;
   text-decoration: underline;
+  font-family: Emblema One;
 }
 h3 {
   font-size: 36px;
@@ -29,14 +35,14 @@ h3 {
 p {
   font-family: Arial;
   font-size: 26px;
-  text-indent: 20px;
   color: black;
+}
+pre, blockquote {
+  text-indent: 0;
 }
 div.hike {
   text-align: justify;
-}
-#abstract {
-  text-align: right;
+  text-indent: 60px;
 }
 #goroda {
   background-image: url(images/Balaklava.jpg);
