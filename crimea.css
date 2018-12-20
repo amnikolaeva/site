@@ -10,7 +10,7 @@ body {
   border: 2px dotted black;
   padding: 10px 10px 10px 10px;
   font-family: Verdana, Geneva, Arial, sans-serif; 
-
+  font-size: 14px;
 }
 header {
   text-align: center;
@@ -29,13 +29,16 @@ h1 {
   font-family: Emblema One;
 }
 h3 {
-  font-size: 36px;
+  font-size: 300%;
   border-bottom: 1px solid black;
 }
 p {
   font-family: Arial;
   font-size: 26px;
   color: black;
+}
+ul {
+  font-size: 150%;
 }
 pre, blockquote {
   text-indent: 0;
