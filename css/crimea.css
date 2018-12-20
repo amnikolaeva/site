@@ -3,6 +3,21 @@
   src: url("http://wickedlysmart.com/hfhtmlcss/chapter8/journal/EmblemaOne-Regular.woff"),
   url("http://wickedlysmart.com/hfhtmlcss/chapter8/journal/EmblemaOne-Regular.ttf");
 }
+@media screen and (min-device-width: 481px) {
+  #guarantee {
+  margin-right: 250px;
+  }
+}
+@media screen and (max-device-width: 480px) {
+  #guarantee {
+  margin-right: 30px;
+  }
+}
+ @media print {
+  body {
+  font-family: Times, "Times New Roman", serif;
+  }
+}
 body {
   background-color: #eaf3da;
   margin-left: 20%;
@@ -12,11 +27,6 @@ body {
   font-family: Verdana, Geneva, Arial, sans-serif; 
   font-size: small;
   line-height: 3.6em;
-}
-header {
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
 }
 img {
   margin-left: 30%;
@@ -71,4 +81,7 @@ p.ru_and_uk {
 }
 #goroda {
   background-image: url(images/Balaklava.jpg);
+}
+#footer {
+  font-size: 12px;
 }
