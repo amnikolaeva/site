@@ -10,7 +10,7 @@ body {
   border: 2px dotted black;
   padding: 10px 10px 10px 10px;
   font-family: Verdana, Geneva, Arial, sans-serif; 
-  font-size: 14px;
+  font-size: small;
 }
 header {
   text-align: center;
@@ -30,6 +30,7 @@ h1 {
 }
 h3 {
   font-size: 300%;
+  font-weight: normal;
   border-bottom: 1px solid black;
 }
 p {
@@ -42,6 +43,10 @@ ul {
 }
 pre, blockquote {
   text-indent: 0;
+  font-size: 150%;
+}
+blockquote {
+  font-style: italic;
 }
 div.hike {
   text-align: justify;
