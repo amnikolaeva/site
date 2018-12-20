@@ -54,9 +54,10 @@ div.hike {
   text-indent: 60px;
 }
 p.ru_and_uk {
-  border-color: black;
-  border-width: 1px;
-  border-style: solid;
+  border-color: #eaf3da;
+  border-width: medium;
+  border-radius: 15px;
+  border-style: dashed;
   background-color: #a7cece;
   padding: 25px;
   margin: 30px;
