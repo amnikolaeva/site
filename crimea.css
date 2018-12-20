@@ -11,6 +11,7 @@ body {
   padding: 10px 10px 10px 10px;
   font-family: Verdana, Geneva, Arial, sans-serif; 
   font-size: small;
+  line-height: 3.6em;
 }
 header {
   text-align: center;
@@ -26,7 +27,7 @@ h1 {
   font-size: 136px;
   color: green;
   text-decoration: underline;
-  font-family: Emblema One;
+  font-family: 'Emblema One';
 }
 h3 {
   font-size: 300%;
@@ -51,6 +52,21 @@ blockquote {
 div.hike {
   text-align: justify;
   text-indent: 60px;
+}
+p.ru_and_uk {
+  border-color: black;
+  border-width: 1px;
+  border-style: solid;
+  background-color: #a7cece;
+  padding: 25px;
+  margin: 30px;
+  font-style: italic;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  line-height: 1.9em;
+  color: #444444;
+  background-image: url(images/background.gif);
+  background-repeat: no-repeat;
+  background-position: top left;
 }
 #goroda {
   background-image: url(images/Balaklava.jpg);
