@@ -4,18 +4,18 @@
   url("http://wickedlysmart.com/hfhtmlcss/chapter8/journal/EmblemaOne-Regular.ttf");
 }
 @media screen and (min-device-width: 481px) {
-  #guarantee {
-  margin-right: 250px;
+  body {
+    font-family: 'Andale Mono', 'Courier New', Courier, monospace;
   }
 }
 @media screen and (max-device-width: 480px) {
-  #guarantee {
-  margin-right: 30px;
+  body {
+    font-family:'Comic Sans MS', 'Comic Sans', 'Bradley Hand', cursive;
   }
 }
  @media print {
   body {
-  font-family: Times, "Times New Roman", serif;
+    font-family: Times, "Times New Roman", Georgia, serif;
   }
 }
 body {
