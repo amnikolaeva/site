@@ -20,17 +20,11 @@
 }
 body {
   background-color: #eaf3da;
-  margin-left: 20%;
-  margin-right: 20%;
-  border: 2px dotted black;
-  padding: 10px 10px 10px 10px;
+  padding: 0px 300px 0px 300px;
   font-family: Verdana, Geneva, Arial, sans-serif; 
   font-size: small;
   line-height: 3.6em;
-}
-img {
-  margin-left: 30%;
-  margin-right: 30%;
+  text-align: justify;
 }
 h1 {
   text-align: center;
@@ -70,6 +64,7 @@ p.ru_and_uk {
   border-style: dashed;
   background-color: #a7cece;
   padding: 25px;
+  padding-left: 100px;
   margin: 30px;
   font-style: italic;
   font-family: Georgia, 'Times New Roman', Times, serif;
@@ -78,10 +73,31 @@ p.ru_and_uk {
   background-image: url(images/background.gif);
   background-repeat: no-repeat;
   background-position: top left;
+  background-size: cover;
 }
 #goroda {
   background-image: url(images/Balaklava.jpg);
 }
 #footer {
   font-size: 12px;
+}
+#images {
+  padding-right: 300px;
+  border-width: thin;
+  border-style: solid;
+  border-color: #007e7e;
+  width: 200px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  margin-left: 200px;
+  text-align: center;
+  background-image: url(images/magnets.png);
+  background-repeat: repeat-x;
+  background-size:cover;
+  }
+#header_of_images {
+  font-size: 14px;
+  line-height: 100%;
 }
