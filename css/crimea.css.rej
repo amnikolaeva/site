@@ -1,0 +1,13 @@
+diff a/css/crimea.css b/css/crimea.css	(rejected hunks)
+@@ -28,11 +28,6 @@
+   font-size: small;
+   line-height: 3.6em;
+ }
+-header {
+-  text-align: center;
+-  margin-left: auto;
+-  margin-right: auto;
+-}
+ img {
+   margin-left: 30%;
+   margin-right: 30%;

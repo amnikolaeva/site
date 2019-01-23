@@ -65,7 +65,7 @@ p.ru_and_uk {
   font-family: Georgia, 'Times New Roman', Times, serif;
   line-height: 1.9em;
   color: #444444;
-  background-image: url(images/background.gif);
+  background-image: url(../images/background.gif);
   background-repeat: no-repeat;
   background-position: top left;
 }
